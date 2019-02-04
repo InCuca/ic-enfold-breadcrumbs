@@ -14,6 +14,7 @@ if ( !class_exists( 'incuca_sc_breadcrumb' ) )
 			function shortcode_insert_button()
 			{
 				$this->config['name']		= __('Breadcrumbs', 'avia_framework' );
+				$this->config['icon']		= plugin_dir_url(__FILE__) . '../images/ic-enfold-breadcrumb.png';
 				$this->config['target']		= 'avia-target-insert';
 				$this->config['shortcode'] 	= 'bread_crumb';
 				$this->config['tooltip'] 	= __('Display breadcrumbs', 'avia_framework' );
